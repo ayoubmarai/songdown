@@ -1,0 +1,27 @@
+{
+  "name": "downloader",
+  "module": "./src/main.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^5.2.1",
+    "@types/lodash": "^4.17.27",
+    "@types/progress": "^2.0.7",
+    "@types/prompts": "^2.4.9",
+    "chalk": "^6.0.1",
+    "csv-parser": "^3.2.1",
+    "lodash": "^4.18.1",
+    "progress": "^2.0.3",
+    "prompts": "^2.4.2",
+    "youtube-dl-exec": "^3.1.19"
+  }
+}
